@@ -1,0 +1,15 @@
+{
+  "name": "node-mvc",
+  "version": "0.0.1",
+  "description": "SImple mvc using express and nunjucks",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Paul Bird",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.13.3",
+    "nunjucks": "^1.3.4"
+  }
+}
