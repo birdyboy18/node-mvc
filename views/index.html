@@ -1,0 +1,12 @@
+{# Super simple nunjucks template #}
+{% extends 'partials/base.html' %}
+{% block content %}
+  <div class="container">
+    <div class="hero">
+      <h1 class="hero__h1">{{ page.title }}</h1>
+      <p class="hero__sub">{{ page.subTitle }}</p>
+      <p class="content">{{ page.content }}</p>
+      <a href="http://github.com/birdyboy18/node-mvc" class="btn btn--outlined">View on Github</a>
+    </div>
+  </div>
+{% endblock %}
